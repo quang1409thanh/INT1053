@@ -34,9 +34,9 @@ vector<string> generateParenthesis(int n)
 }
 
 int main(){
-    int n;
-    cin >> n;
-    
+    int x;
+    cin >> x;
+    int n=x/2;
     for (int i = 1; i <= n; i++){
         vector<string>ff; 
         ff = generateParenthesis(i); 
